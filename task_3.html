@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task_3</title>
+</head>
+<style>
+  *{margin:0;padding:0;}
+  body{padding:20px;}
+  .border-box{box-sizing:border-box;}
+  .border{border:#999 1px solid;}
+  .padding20{padding:20px;}
+  .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+  .clearfix{*+height:1%;}
+  .box{width:100%;background:#eee;overflow:hidden;}
+  .left{position:relative;float:left;width:200px;margin-right:-200px;background:#fff;}
+  .left .team_head{display: inline-block; width: 100%; float:left;}
+  .left p{display: inline-block; float: right;}
+  .team_avatar{width:80px;height:80px;display: inline-block;}
+  .container{float:left;width:100%;}
+  .content{margin:0 140px 0 220px;background:#fff;}
+  .content p{width: 100%;}
+  .right{position:relative;float:right;width:120px;margin-left:-120px;background:#fff;}
+  .right .teammate_avatars{width: 100%;}
+  .right .teammate_avatars .avatar{width: 80px; height:80px; display: block; margin-bottom: 20px;}
+  .right .teammate_avatars .avatar:last-child{margin-bottom:0;}
+</style>
+<body>
+  <div class="box clearfix border-box border padding20">
+    <div class="left border-box border padding20">
+      <div class="team_head">
+        <img src="images/avatar.png" alt="" class="team_avatar border-box border">
+        <p>5根毛</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="content border-box border padding20">
+        <div class="team_body">
+          <p>我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.我们是5根毛.</p>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="teammate_avatars border-box border padding20">
+        <img src="images/avatar.png" alt="" class="avatar border-box border">
+        <img src="images/avatar.png" alt="" class="avatar border-box border">
+        <img src="images/avatar.png" alt="" class="avatar border-box border">
+        <img src="images/avatar.png" alt="" class="avatar border-box border">
+        <img src="images/avatar.png" alt="" class="avatar border-box border">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
